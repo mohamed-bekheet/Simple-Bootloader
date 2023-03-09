@@ -1,0 +1,956 @@
+05:10:01 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:10:06 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+05:11:00 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:11:11 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+05:13:07 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+Finished building: test_SPI1.list
+ 
+ 
+05:18:45 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+Finished building: test_SPI1.bin
+ 
+ 
+Finished building: test_SPI1.list
+ 
+05:19:11 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:20:16 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+Finished building: test_SPI1.list
+ 
+ 
+05:21:09 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1660	   7700	   1e14	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:21:43 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:97:8: warning: unused variable 'message' [-Wunused-variable]
+   char message[] ="Mohamed";
+        ^~~~~~~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1660	   7700	   1e14	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:22:33 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:11: warning: unused variable 'mm' [-Wunused-variable]
+   uint8_t mm = 65;
+           ^~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6016	     20	   1660	   7696	   1e10	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+Finished building: test_SPI1.list
+ 
+ 
+05:22:39 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:11: warning: unused variable 'mm' [-Wunused-variable]
+   uint8_t mm = 65;
+           ^~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1660	   7700	   1e14	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:23:46 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:11: warning: unused variable 'mm' [-Wunused-variable]
+   uint8_t mm = 65;
+           ^~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1660	   7700	   1e14	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+05:25:22 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6020	     20	   1660	   7700	   1e14	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+05:25:50 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:98:11: warning: unused variable 'mm' [-Wunused-variable]
+   uint8_t mm = 65;
+           ^~
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6016	     20	   1660	   7696	   1e10	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+14:29:24 **** Clean-only build of configuration Debug for project APPLICATION ****
+make -j16 clean 
+rm -rf *
+ 
+14:29:25 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c8tx.d" -MT"Core/Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c8tx.o" "../Core/Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:25:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("APP Running");
+   ^~~~~~
+../Core/Src/main.c:25:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:25:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "APPLICATION.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\APPLICATION\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="APPLICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: APPLICATION.elf
+ 
+arm-none-eabi-size   APPLICATION.elf 
+arm-none-eabi-objdump -h -S  APPLICATION.elf  > "APPLICATION.list"
+arm-none-eabi-objcopy  -O ihex  APPLICATION.elf  "APPLICATION.hex"
+arm-none-eabi-objcopy  -O binary  APPLICATION.elf  "APPLICATION.bin"
+   text	   data	    bss	    dec	    hex	filename
+   9444	    120	   1656	  11220	   2bd4	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+Finished building: APPLICATION.bin
+Finished building: APPLICATION.hex
+Finished building: APPLICATION.list
+ 
+ 
+ 
+14:29:27 **** Clean-only build of configuration Debug for project BOOTLOADER2 ****
+make -j16 clean 
+rm -rf *
+ 
+14:29:28 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/option/syscall.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/option/syscall.d" -MT"Middlewares/Third_Party/FatFs/src/option/syscall.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FatFs/src/option/syscall.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/diskio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/diskio.d" -MT"Middlewares/Third_Party/FatFs/src/diskio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FatFs/src/diskio.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/ff.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/ff.d" -MT"Middlewares/Third_Party/FatFs/src/ff.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FatFs/src/ff.o"
+arm-none-eabi-gcc "../Middlewares/Third_Party/FatFs/src/ff_gen_drv.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Middlewares/Third_Party/FatFs/src/ff_gen_drv.d" -MT"Middlewares/Third_Party/FatFs/src/ff_gen_drv.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Middlewares/Third_Party/FatFs/src/ff_gen_drv.o"
+arm-none-eabi-gcc "../FATFS/Target/user_diskio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"FATFS/Target/user_diskio.d" -MT"FATFS/Target/user_diskio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "FATFS/Target/user_diskio.o"
+arm-none-eabi-gcc "../FATFS/App/fatfs.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"FATFS/App/fatfs.d" -MT"FATFS/App/fatfs.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "FATFS/App/fatfs.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.o"
+arm-none-eabi-gcc -mcpu=cortex-m3 -g3 -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f103c8tx.d" -MT"Core/Startup/startup_stm32f103c8tx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32f103c8tx.o" "../Core/Startup/startup_stm32f103c8tx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_hal_msp.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_hal_msp.d" -MT"Core/Src/stm32f1xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f1xx_it.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32f1xx_it.d" -MT"Core/Src/stm32f1xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32f1xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f1xx.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32f1xx.d" -MT"Core/Src/system_stm32f1xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32f1xx.o"
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-size   BOOTLOADER2.elf 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5588	     40	   2776	   8404	   20d4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.hex
+Finished building: BOOTLOADER2.bin
+ 
+Finished building: BOOTLOADER2.list
+ 
+ 
+14:29:30 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "test_SPI1.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\test_SPI1\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="test_SPI1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: test_SPI1.elf
+ 
+arm-none-eabi-objdump -h -S  test_SPI1.elf  > "test_SPI1.list"
+arm-none-eabi-objcopy  -O binary  test_SPI1.elf  "test_SPI1.bin"
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+Finished building: test_SPI1.bin
+ 
+Finished building: test_SPI1.list
+ 
+16:20:44 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:25:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   printf("APP Running!\n");
+   ^~~~~~
+../Core/Src/main.c:25:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Core/Src/main.c:25:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "APPLICATION.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\APPLICATION\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="APPLICATION.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: APPLICATION.elf
+ 
+arm-none-eabi-objdump -h -S  APPLICATION.elf  > "APPLICATION.list"
+arm-none-eabi-objcopy  -O ihex  APPLICATION.elf  "APPLICATION.hex"
+arm-none-eabi-objcopy  -O binary  APPLICATION.elf  "APPLICATION.bin"
+arm-none-eabi-size   APPLICATION.elf 
+Finished building: APPLICATION.hex
+Finished building: APPLICATION.bin
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+ 
+ 
+Finished building: default.size.stdout
+ 
+Finished building: APPLICATION.list
+ 
+16:20:51 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:30:11: warning: type defaults to 'int' in declaration of 'ptrF' [-Wimplicit-int]
+ typedef (*ptrF)(void); //pointer to function
+           ^~~~
+../Core/Src/main.c: In function 'BL_SWITCH_TO_APP':
+../Core/Src/main.c:64:19: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   ptrF APP_JUMP = *(APP_START_FLASH_ADDRESS+1);
+                   ^
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.hex
+Finished building: BOOTLOADER2.bin
+ 
+ 
+Finished building: BOOTLOADER2.list
+ 
+16:23:05 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:23:06 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:30:11: warning: type defaults to 'int' in declaration of 'ptrF' [-Wimplicit-int]
+ typedef (*ptrF)(void); //pointer to function
+           ^~~~
+../Core/Src/main.c: In function 'BL_SWITCH_TO_APP':
+../Core/Src/main.c:64:19: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   ptrF APP_JUMP = *(uint32_t *)(APP_START_FLASH_ADDRESS+1);
+                   ^
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.hex
+Finished building: BOOTLOADER2.bin
+ 
+Finished building: BOOTLOADER2.list
+ 
+ 
+16:23:07 **** Clean-only build of configuration Debug for project MyStaticLib ****
+make clean 
+rm -rf *
+ 
+16:23:07 **** Build of configuration Debug for project MyStaticLib ****
+make all 
+arm-none-eabi-gcc "../staticlib.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -c -O0 -ffunction-sections -fdata-sections -Wall -static -fstack-usage -MMD -MP -MF"staticlib.d" -MT"staticlib.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "staticlib.o"
+arm-none-eabi-ar -r  "libMyStaticLib.a" @"objects.list"  
+arm-none-eabi-ar: creating libMyStaticLib.a
+Finished building target: libMyStaticLib.a
+ 
+16:23:07 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:23:07 **** Clean-only build of configuration Debug for project BootLoader ****
+make -j16 clean 
+rm -rf *
+ 
+16:23:09 **** Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.d" -MT"Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32G0xx_HAL_Driver/Src/stm32g0xx_ll_rcc.o"
+arm-none-eabi-gcc -mcpu=cortex-m0plus -g3 -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32g071rbtx.d" -MT"Core/Startup/startup_stm32g071rbtx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Startup/startup_stm32g071rbtx.o" "../Core/Startup/startup_stm32g071rbtx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_hal_msp.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g0xx_hal_msp.d" -MT"Core/Src/stm32g0xx_hal_msp.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g0xx_it.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g0xx_it.d" -MT"Core/Src/stm32g0xx_it.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/stm32g0xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g0xx.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G071xx -c -I"D:/1.Mohamed/Embedded/ARM_microController/projects/STM32CubeIDE_Linker_Bootloader_App_ST_youtube/STM32CubeIDE_Linker_Bootloader_App/MyStaticLib" -I../Core/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc -I../Drivers/STM32G0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g0xx.d" -MT"Core/Src/system_stm32g0xx.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/system_stm32g0xx.o"
+arm-none-eabi-gcc -o "BootLoader.elf" @"objects.list"  -lMyStaticLib -mcpu=cortex-m0plus -T"D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\BootLoader\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BootLoader.map" -Wl,--gc-sections -static -L"D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\MyStaticLib\Debug" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\BootLoader\STM32G071RBTX_FLASH.ld:35: syntax error
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:53: BootLoader.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:23:10 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+16:27:34 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:27:34 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+16:27:35 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:27:35 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:27:35 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-gcc -o "BootLoader.elf" @"objects.list"  -lMyStaticLib -mcpu=cortex-m0plus -T"D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\BootLoader\STM32G071RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BootLoader.map" -Wl,--gc-sections -static -L"D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\MyStaticLib\Debug" --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\STM32CubeIDE_Linker_Bootloader_App_ST_youtube\STM32CubeIDE_Linker_Bootloader_App\BootLoader\STM32G071RBTX_FLASH.ld:96: warning: memory region `MY_MEMORY' not declared
+Finished building target: BootLoader.elf
+ 
+arm-none-eabi-size   BootLoader.elf 
+arm-none-eabi-objdump -h -S  BootLoader.elf  > "BootLoader.list"
+arm-none-eabi-objcopy  -O binary  BootLoader.elf  "BootLoader.bin"
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+Finished building: BootLoader.bin
+ 
+Finished building: BootLoader.list
+ 
+16:27:37 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+16:44:37 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:44:37 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+16:44:38 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:38 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:44:38 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:44:39 **** Incremental Build of configuration Debug for project test_SPI1 ****
+make -j16 all 
+arm-none-eabi-size   test_SPI1.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6012	     20	   1660	   7692	   1e0c	test_SPI1.elf
+Finished building: default.size.stdout
+ 
+16:44:53 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:44:53 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+16:46:17 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:46:17 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:93: warning: memory region `MY_MEM' not declared
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.bin
+Finished building: BOOTLOADER2.hex
+ 
+Finished building: BOOTLOADER2.list
+ 
+ 
+16:46:17 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:18 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:18 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:46:47 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:46:47 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:93: warning: memory region `MY_MEM' not declared
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9028	    140	   2788	  11956	   2eb4	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.hex
+Finished building: BOOTLOADER2.bin
+ 
+ 
+Finished building: BOOTLOADER2.list
+ 
+16:46:48 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:48 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:46:48 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:48:35 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:48:36 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:0: warning: memory region `MY_MEM' not declared
+D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:95: undefined symbol `_mySection_End_' referenced in expression
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:57: BOOTLOADER2.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:48:36 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:36 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:37 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:48:49 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:48:49 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:0: warning: memory region `MY_MEM' not declared
+D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:95: undefined symbol `_mySection_End_' referenced in expression
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:57: BOOTLOADER2.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:48:50 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:50 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:48:50 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:49:05 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:49:05 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:0: warning: memory region `MY_MEM' not declared
+D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:95: undefined symbol `_mySection_End_' referenced in expression
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:57: BOOTLOADER2.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:49:05 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:49:05 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:49:06 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:49:39 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:49:40 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:30:11: warning: type defaults to 'int' in declaration of 'ptrF' [-Wimplicit-int]
+ typedef (*ptrF)(void); //pointer to function
+           ^~~~
+../Core/Src/main.c: In function 'BL_SWITCH_TO_APP':
+../Core/Src/main.c:64:19: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   ptrF APP_JUMP = *(uint32_t *)(APP_START_FLASH_ADDRESS+1);
+                   ^
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:0: warning: memory region `MY_MEM' not declared
+D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:95: undefined symbol `_mySection_End_' referenced in expression
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:57: BOOTLOADER2.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:50:02 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:50:02 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+d:\programs_setup_files\stm32cubeide_1.4.0\stm32cubeide\plugins\com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.7-2018-q2-update.win32_1.4.0.202007081208\tools\arm-none-eabi\bin\ld.exe:D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:0: warning: memory region `MY_MEM' not declared
+D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld:95: undefined symbol `_mySection_End_' referenced in expression
+collect2.exe: error: ld returned 1 exit status
+make: *** [makefile:57: BOOTLOADER2.elf] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+16:50:03 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:03 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:03 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:50:15 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:50:15 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9032	    140	   2788	  11960	   2eb8	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.hex
+Finished building: BOOTLOADER2.bin
+ 
+ 
+Finished building: BOOTLOADER2.list
+ 
+16:50:16 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:16 **** Incremental Build of configuration Debug for project MyStaticLib ****
+make all 
+make: Nothing to be done for 'all'.
+16:50:17 **** Incremental Build of configuration Debug for project BootLoader ****
+make -j16 all 
+arm-none-eabi-size   BootLoader.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15632	    120	   1728	  17480	   4448	BootLoader.elf
+Finished building: default.size.stdout
+ 
+16:50:25 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+16:50:25 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9032	    140	   2788	  11960	   2eb8	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+17:23:05 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+17:23:05 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9032	    140	   2788	  11960	   2eb8	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+17:24:43 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+17:24:44 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F103xB -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../FATFS/Target -I../FATFS/App -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:30:11: warning: type defaults to 'int' in declaration of 'ptrF' [-Wimplicit-int]
+ typedef (*ptrF)(void); //pointer to function
+           ^~~~
+../Core/Src/main.c: In function 'BL_SWITCH_TO_APP':
+../Core/Src/main.c:65:19: warning: initialization makes pointer from integer without a cast [-Wint-conversion]
+   ptrF APP_JUMP = *(uint32_t *)(APP_START_FLASH_ADDRESS+1);
+                   ^
+arm-none-eabi-gcc -o "BOOTLOADER2.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\1.Mohamed\Embedded\ARM_microController\projects\Test_BOOTLOADER2\BOOTLOADER2\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="BOOTLOADER2.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: BOOTLOADER2.elf
+ 
+arm-none-eabi-objdump -h -S  BOOTLOADER2.elf  > "BOOTLOADER2.list"
+arm-none-eabi-objcopy  -O ihex  BOOTLOADER2.elf  "BOOTLOADER2.hex"
+arm-none-eabi-objcopy  -O binary  BOOTLOADER2.elf  "BOOTLOADER2.bin"
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9056	    140	   2788	  11984	   2ed0	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
+Finished building: BOOTLOADER2.bin
+Finished building: BOOTLOADER2.hex
+ 
+Finished building: BOOTLOADER2.list
+ 
+ 
+19:46:39 **** Incremental Build of configuration Debug for project APPLICATION ****
+make -j16 all 
+arm-none-eabi-size   APPLICATION.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8100	    120	   1656	   9876	   2694	APPLICATION.elf
+Finished building: default.size.stdout
+ 
+19:46:40 **** Incremental Build of configuration Debug for project BOOTLOADER2 ****
+make -j16 all 
+arm-none-eabi-size   BOOTLOADER2.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9056	    140	   2788	  11984	   2ed0	BOOTLOADER2.elf
+Finished building: default.size.stdout
+ 
